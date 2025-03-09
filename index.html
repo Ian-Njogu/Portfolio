@@ -11,15 +11,15 @@
         <div class="container">
             <a href="#" class="logo">Ian Njogu</a>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="#">Contact me</a></li>
+                <li><a href="contact.html">Contact me</a></li>
                 
             </ul>
         </div>
     </nav>
 
-    </nav>
+    
     <div>
         <header class="header">
             <h1>Ian Njogu</h1>
@@ -27,11 +27,52 @@
         </header>
     </div>
     <div>
-        <h3>
-            Check out my services
+        <h3 id="check-out">
+            Please Fill this form to reach out:
         </h3>
     </div>
-
+    <form action="/submit" method="POST" class="form">
+        
+        <label for="Full name">Full Name:</label>
+        <input type="text" id="full name" name="full name" placeholder="Enter name"> <br>
+        <br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" id="Male" name="Gender" value="male" placeholder="Enter Gender">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Female">Female</label>
+        <br>
+        <br>
+        <label for="Date of birth">Date of birth:</label>
+        <input type="Date" id="Date" name="Date of birth"> <br>
+        <br>
+        <label for="Phone number">Phone number:</label>
+        <input type="number" id="Phone number" name="phone number" placeholder="Enter phone number"> <br>
+        <br>
+        <label for="City of residence">City of residence:</label>
+        <select name="Conunty" id="County">
+            <option value="City of residence"disabled selected>Select city of Residence</option>
+            <option value="Nairobi">Nairobi</option>
+            <option value="Mombasa">Mombasa</option>
+            <option value="Kisumu">Kisumu</option>
+            <option value="Nakuru">Nakuru</option>
+        </select>
+         <br>
+        <br>
+        <label for="Interests">Interests:</label>
+        <input type="checkbox" id="Loans" name="Loans">
+        <label for="loans">Loans</label>
+        <input type="checkbox" id="Investments" name="Investments">
+        <label for="loans">Investments</label>
+        
+        <br>
+        <label for="Comment">Leave a comment:</label>
+        <br>
+        <textarea name="Comment" id="Comment" placeholder="Enter comment"></textarea>
+        <br>
+        <button type="submit" value="1">Submit</button>
+        
+    </form>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <footer >
         <div class="container">
