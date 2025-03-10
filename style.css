@@ -10,6 +10,7 @@ body {
     color: #364156;
     line-height: 1.6;
 }
+/* Styling the navbar */
 .navbar  {
     background-color: #011638;
     color: rgb(255, 255, 255);
@@ -32,13 +33,14 @@ body {
 .nav-links li a {
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* change the font size of the links */
     padding: 10px 15px;
     display: block;
 }
 .nav-links li a:hover {
     color: #dff8eb;
 }
+/* Styling the logo */
 .logo {
     text-decoration: none;
     font-size: large;
@@ -54,6 +56,7 @@ body {
     padding: 20px 0;
     text-align: center;
 }
+/* Styling the footer */
 footer {
     background-color: #011638;
     color: white;
