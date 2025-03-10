@@ -63,6 +63,7 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+/* Styling the about page */
 .About {
     background-color: #cdcdcd;
     padding: 20px 0;
@@ -88,6 +89,7 @@ footer {
     color: black;
     
 }
+/* Styling the form */
 form {
     border: 2px solid #0b2638; 
     padding: 20px; 
